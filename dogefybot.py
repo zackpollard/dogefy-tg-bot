@@ -25,7 +25,7 @@ bot = telebot.TeleBot(os.environ['DOGEFY_TKN'])
 time_ignore = 5*60
 
 # Doge image and final image extension
-img_doge = cv2.imread('doge.png', -1)
+img_doge = cv2.imread('mazen.png', -1)
 img_ext = '_dogefied.png'
 
 # Cascade classifier parameters, can be tricky to adjust...
