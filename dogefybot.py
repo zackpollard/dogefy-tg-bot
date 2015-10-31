@@ -110,7 +110,7 @@ def handle_photo(m):
         # Upload the photo and do it as a reply
         bot.send_photo(cid,
                        open(f_id+img_ext, 'rb'),
-                       caption='Very wow, such doge%s.' %
+                       caption='Tick Tock...%s.' %
                        ('s' if n_faces > 1 else ''),
                        reply_to_message_id=m.message_id)
 
